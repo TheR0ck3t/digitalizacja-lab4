@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+#uploadForm input[type="file"] {
+  margin: 10px 0;
+}
+.main button {
+    padding: 0.4rem 0.8rem;
+    margin: 0.3rem;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.main button:hover {
+  background: #0056b3;
+}
